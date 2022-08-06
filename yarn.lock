@@ -248,6 +248,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"preact-ssr-prepass@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "preact-ssr-prepass@npm:1.2.0"
+  peerDependencies:
+    preact: ">=10 || ^10.0.0-beta.0 || ^10.0.0-alpha.0"
+  checksum: 9a28f3f0bda9e470c353d67afd12664a8638c4a213e90eb73a0dc92fff37bf9132e8f259ea7cc1ffc8d537fd652ce1d8ed845538ef9d10a4c0bb4b434aaaab8a
+  languageName: node
+  linkType: hard
+
 "preact-test@workspace:.":
   version: 0.0.0-use.local
   resolution: "preact-test@workspace:."
@@ -256,6 +265,7 @@ __metadata:
     esbuild: "npm:^0.14.53"
     preact: "npm:^10.10.1"
     preact-render-to-string: "npm:^5.2.1"
+    preact-ssr-prepass: "npm:^1.2.0"
     react: "npm:@preact/compat@*"
     react-dom: "npm:@preact/compat@*"
   languageName: unknown

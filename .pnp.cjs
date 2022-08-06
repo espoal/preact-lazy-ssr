@@ -37,6 +37,7 @@ const RAW_RUNTIME_STATE =
           ["esbuild", "npm:0.14.53"],\
           ["preact", "npm:10.10.1"],\
           ["preact-render-to-string", "virtual:d9c6c9f767429e69220640dc4c89559455f522753fc73e3930ee5aa58e5f148eaef8da9de53d1bb4c339171381c9105a60a5de0b1f457ad7ba27fd7c7e0e0026#npm:5.2.1"],\
+          ["preact-ssr-prepass", "virtual:5a12efa35039df946818b58dcdd899f2eb9f93483c84c761f62573c1fb0dcb3ff932661a3f9549c179592748fa5d14693789bbbe6a4053e81cc7d64714904aed#npm:1.2.0"],\
           ["react", [\
             "@preact/compat",\
             "virtual:5a12efa35039df946818b58dcdd899f2eb9f93483c84c761f62573c1fb0dcb3ff932661a3f9549c179592748fa5d14693789bbbe6a4053e81cc7d64714904aed#npm:17.1.1"\
@@ -346,6 +347,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["preact-ssr-prepass", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../.yarn/berry/cache/preact-ssr-prepass-npm-1.2.0-89a9e37a3d-9.zip/node_modules/preact-ssr-prepass/",\
+        "packageDependencies": [\
+          ["preact-ssr-prepass", "npm:1.2.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5a12efa35039df946818b58dcdd899f2eb9f93483c84c761f62573c1fb0dcb3ff932661a3f9549c179592748fa5d14693789bbbe6a4053e81cc7d64714904aed#npm:1.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/preact-ssr-prepass-virtual-ee9485004d/3/.yarn/berry/cache/preact-ssr-prepass-npm-1.2.0-89a9e37a3d-9.zip/node_modules/preact-ssr-prepass/",\
+        "packageDependencies": [\
+          ["preact-ssr-prepass", "virtual:5a12efa35039df946818b58dcdd899f2eb9f93483c84c761f62573c1fb0dcb3ff932661a3f9549c179592748fa5d14693789bbbe6a4053e81cc7d64714904aed#npm:1.2.0"],\
+          ["@types/preact", null],\
+          ["preact", "npm:10.10.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/preact",\
+          "preact"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["preact-test", [\
       ["workspace:.", {\
         "packageLocation": "./",\
@@ -355,6 +378,7 @@ const RAW_RUNTIME_STATE =
           ["esbuild", "npm:0.14.53"],\
           ["preact", "npm:10.10.1"],\
           ["preact-render-to-string", "virtual:d9c6c9f767429e69220640dc4c89559455f522753fc73e3930ee5aa58e5f148eaef8da9de53d1bb4c339171381c9105a60a5de0b1f457ad7ba27fd7c7e0e0026#npm:5.2.1"],\
+          ["preact-ssr-prepass", "virtual:5a12efa35039df946818b58dcdd899f2eb9f93483c84c761f62573c1fb0dcb3ff932661a3f9549c179592748fa5d14693789bbbe6a4053e81cc7d64714904aed#npm:1.2.0"],\
           ["react", [\
             "@preact/compat",\
             "virtual:5a12efa35039df946818b58dcdd899f2eb9f93483c84c761f62573c1fb0dcb3ff932661a3f9549c179592748fa5d14693789bbbe6a4053e81cc7d64714904aed#npm:17.1.1"\
