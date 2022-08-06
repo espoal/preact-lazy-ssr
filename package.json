@@ -1,0 +1,17 @@
+{
+  "name": "preact-test",
+  "scripts": {
+    "serve": "firebase emulators:start",
+    "build": "node build.mjs",
+    "ssr": "node dist/server.mjs"
+  },
+  "packageManager": "yarn@4.0.0-rc.14",
+  "dependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.14",
+    "esbuild": "^0.14.53",
+    "preact": "^10.10.1",
+    "preact-render-to-string": "^5.2.1",
+    "react": "npm:@preact/compat@*",
+    "react-dom": "npm:@preact/compat@*"
+  }
+}
